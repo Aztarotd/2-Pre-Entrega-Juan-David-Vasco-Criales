@@ -57,39 +57,39 @@ main div img {
 }
 
 .carta img {
+  border-bottom: 5px solid black;
   object-fit: cover;
 }
 
 .carta h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   color: #000;
   text-align: center;
 }
 
 /* Configuración de la sección "ubicación" */
 .mapa {
-  width: 60vh;
+  width: 70vh;
   display: grid;
   grid-template-columns: 1fr;
   margin: 1rem 0.1rem;
 }
 
 main .ubicacion h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   text-align: center;
   color: #000;
-}
-main .ubicacion h1 .roboto-medium-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
 }
 main .ubicacion h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   text-align: center;
   color: #000;
-}
-main .ubicacion h2 .roboto-medium-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
 }
 
 /* Configuración de la sección "galeria" */
@@ -123,7 +123,9 @@ main .ubicacion h2 .roboto-medium-italic {
 }
 
 footer {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   text-align: center;
   justify-items: center;
   margin: 2rem;
@@ -140,7 +142,7 @@ footer {
   /* Adaptación a pantallas de escritorio para la sección "ubicación" */
   .mapa {
     margin: 2rem 9rem;
-    width: 80%;
+    width: 60%;
   }
   /* Adaptación a pantallas de escritorio para la sección "galeria" */
   .galeria {
@@ -150,7 +152,7 @@ footer {
   }
   /* Adaptación a pantallas de escritorio para la sección "contacto" */
   .redes {
-    width: 60%;
+    width: 70%;
     grid-template-columns: 1fr repeat(2, 1fr);
     grid-template-rows: 1fr;
     column-gap: 8rem;
