@@ -19,9 +19,25 @@ header {
   background-color: #000000;
 }
 
+.amarillo-bg {
+  background-color: #C49400;
+}
+
+.offcanvas-header {
+  background-color: #C49400;
+}
+
+.offcanvas-body {
+  background-color: #C49400;
+}
+
+.dropdown-menu {
+  background-color: #C49400;
+}
+
 .logo img {
-  margin: 3rem;
-  height: 30vh;
+  margin: 5rem;
+  height: 25vh;
 }
 
 main div img {
@@ -114,7 +130,7 @@ main .ubicacion h2 {
 
 .redes {
   height: 70vh;
-  margin: 2rem 1rem;
+  margin: 2rem 5rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 30%);
@@ -152,11 +168,11 @@ footer {
   }
   /* Adaptación a pantallas de escritorio para la sección "contacto" */
   .redes {
-    width: 70%;
+    width: 60%;
     grid-template-columns: 1fr repeat(2, 1fr);
     grid-template-rows: 1fr;
-    column-gap: 8rem;
-    margin: 1rem 15rem;
+    column-gap: 20rem;
+    margin: 1rem 32rem;
   }
 }
 

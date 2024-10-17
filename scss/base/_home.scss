@@ -1,10 +1,10 @@
 // import de variables
 
-@import"../base/utilidades/variables";
+@import"../utilidades/variables";
 
 // import de mixin
 
-@import"../base/utilidades/mixin";
+@import"../utilidades/mixin";
 
 
 /* Parámetros generales */
@@ -19,10 +19,27 @@ header {
     background-color: $color-header;
 }
 
+
+
+.amarillo-bg{
+    background-color: $color-principal;
+}
+.offcanvas-header{
+    background-color: $color-principal;
+}
+
+.offcanvas-body{
+    background-color: $color-principal;
+}
+.dropdown-menu{
+    background-color: $color-principal;
+}
+
+
 .logo {
     img {
-        margin: 3rem;
-        height: 30vh;
+        margin: 5rem;
+        height: 25vh;
     }
 
 }
@@ -140,13 +157,14 @@ main {
 .redes {
     img {
         object-fit: contain;
+        
     }
 
 }
 
 .redes {
     height: 70vh;
-    margin: 2rem 1rem;
+    margin: 2rem 5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 30%);
@@ -189,10 +207,10 @@ footer {
 
     /* Adaptación a pantallas de escritorio para la sección "contacto" */
     .redes {
-        width: 70%;
+        width: 60%;
         grid-template-columns: 1fr repeat(2, 1fr);
         grid-template-rows: 1fr;
-        column-gap: 8rem;
-        margin: 1rem 15rem;
+        column-gap: 20rem;
+        margin: 1rem 32rem;
     }
 }
